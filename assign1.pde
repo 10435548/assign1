@@ -13,11 +13,11 @@ void setup ()
 {
   size(640,480) ;  // must use this size.// your code
     x=0;
-    bg1Img = loadImage("img/bg1.jpg");
-    frighterImg = loadImage("img/fighter.jpg");
-    hpImg = loadImage("img/hp.jpg");
-    treasureImg = loadImage("img/treasure.jpg");
-    enemyImg = loadImage("img/enemy.jpg");
+    bg1Img = loadImage("D:/img/bg1.png");
+    frighterImg = loadImage("D:/img/fighter.png");
+    hpImg = loadImage("D:/img/hp.png");
+    treasureImg = loadImage("D:/img/treasure.png");
+    enemyImg = loadImage("D:/img/enemy.png");
     
     a = floor(random(0,640));
     b = floor(random(0,480));
