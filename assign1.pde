@@ -28,7 +28,6 @@ void setup ()
 
 void draw() 
 {// your code
- background(0);
  image(bg1Img,0,0);
  image(frighterImg,600,300);
  image(hpImg,0,0);
