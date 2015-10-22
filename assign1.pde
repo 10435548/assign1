@@ -19,8 +19,8 @@ void setup ()
     treasureImg = loadImage("img/treasure.png");
     enemyImg = loadImage("img/enemy.png");
     
-    a = floor(random(0,640));
-    b = floor(random(0,480));
+    a = floor(random(0,600));
+    b = floor(random(0,450));
     c = floor(random(0,480));
     d = floor(random(30,195));
     
@@ -29,7 +29,7 @@ void setup ()
 void draw() 
 {// your code
  image(bg1Img,0,0);
- image(frighterImg,600,300);
+ image(frighterImg,550,300);
  image(hpImg,0,0);
  image(treasureImg,a,b);
  image(enemyImg,x,150);
