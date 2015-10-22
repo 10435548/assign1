@@ -35,7 +35,7 @@ void draw()
  image(enemyImg,x,150);
  
  fill(255,0,0);
- rect(15,10,d,10);
+ rect(20,15,d,25);
  x += 3;
  x%=650;
 }
